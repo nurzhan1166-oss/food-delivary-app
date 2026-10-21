@@ -1,0 +1,90 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  background: var(--dark);
+}
+
+.login-top {
+  padding: 90px 24px 40px;
+  text-align: center;
+}
+
+.login-top .subtitle {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.login-form {
+  flex: 1;
+  padding: 24px;
+  background: var(--white);
+  border-radius: 24px 24px 0 0;
+}
+
+.label {
+  display: block;
+  margin: 20px 0 8px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.label:first-child {
+  margin-top: 0;
+}
+
+.login-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 24px;
+  font-size: 13px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--gray);
+}
+
+.link {
+  color: var(--orange);
+  text-decoration: none;
+}
+
+.bottom-text {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--gray);
+}
+
+.or {
+  margin: 16px 0;
+  text-align: center;
+  color: var(--gray);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-weight: 700;
+}
+
+.fb { background: #395998; }
+.tw { background: #169CE8; }
+.ap { background: #1B1F2F; }
