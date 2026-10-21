@@ -1,0 +1,33 @@
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  gap: 40px;
+}
+
+.map-circle {
+  width: 240px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #FFF4E5;
+}
+
+.pin {
+  font-size: 90px;
+}
+
+.location .btn-link {
+  width: 100%;
+}
+
+.location-note {
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: var(--gray);
+}
