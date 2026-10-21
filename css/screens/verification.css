@@ -1,0 +1,28 @@
+.code-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.code-label {
+  margin: 0;
+}
+
+.code-boxes {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.code-box {
+  width: 62px;
+  height: 62px;
+  border: none;
+  border-radius: 12px;
+  background: var(--light);
+  text-align: center;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+}
