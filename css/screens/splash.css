@@ -1,0 +1,15 @@
+.splash {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.logo span {
+  color: var(--orange);
+}
