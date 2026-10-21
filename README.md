@@ -1,1 +1,1 @@
-# food-delivary-app
+# food-delivery-app
